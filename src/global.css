@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body {
+    background-color: white;
+    
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial,
+    sans-serif !important;
+  font-size: 14x;
+  /* background-color: #efefef; */
+}
+
+/* NAVBAR CSS STARTS HERE */
+
+.navbarContainer {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+.navbarContainer > article {
+  width: 100%;
+  margin: 0 auto;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+  font-family:;
+}
+
+.logo {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: flex-start;
+  /* border: 1px solid; */
+}
+.searchComp {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+
+  /* display: flex; */
+}
+.menuBlock {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.searchDivide {
+  display: flex;
+  /* border: 1px solid; */
+  gap: 10px;
+  width: 100%;
+  padding-left: 14px;
+}
+.searchDivide div {
+  border: 1px solid rgb(233, 231, 231);
+  padding: 6px;
+  border-radius: 6px;
+  
+}
+
+.searchBlock input {
+  border: none;
+  outline: none;
+}
+
+.searchComp .leftSearch {
+  flex-basis: 25%;
+  display: flex;
+ 
+}
+input {
+  border: none;
+  height: 5vh;
+  
+}
+
+.searchDivide .rightSearch {
+  flex-basis: 15%;
+  display: flex;
+  width: 100%;
+
+  
+
+
+}
+.icon-left
+{
+    font-size: 15px;
+    position: absolute;
+
+}
+.input-content{
+    position: relative;
+    
+}
+.leftIcon {
+    position: relative;
+    top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.iconRight{
+    position: relative;
+    top: 6px;
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+}
+.menuBlock >span{
+    width: 45%;
+    padding: 13px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 222, 222);
+    border-radius: 10px;
+}
+.menuBlock{
+    margin-left: 50px;
+}
+
+
+/* service block css */
+.serviceBlock{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    margin:  0 auto;
+    margin-right: 2vw;
+    padding: 30px;
+    /* border: 1px solid rgb(219, 218, 218); */
+    justify-content: space-between;
+}
+.doorstap{
+    font-size: 5.5vh;
+    font-weight: 600;
+    padding-left: 2vw;
+    padding-top: 2.3vh;
+    
+    
+}
+.LeftSerBlock{
+    width: 50vw;
+    display: flex;
+/* border: 1px solid; */
+}
+.RightSerBlock{
+    width: 50vw;
+
+    /* border: 1px solid; */
+
+}
+.lookingFor{
+    /* display: flex; */
+    font-size: 2vh;
+   
+}
+.doorstepHeading{
+    font-size: 3vh;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+    padding-top: 3vh;
+}
+.leftSection{
+    height: 70vh;
+    border: 1px solid rgb(207, 207, 207);
+    width: 35vw;
+    margin-left: 2.7vw;
+    margin-top: 7vh;
+    padding-left: 10px;
+    border-radius: 7px;
+
+}
+.lookAside1{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2vh;
+    margin-top: 3vh;
+}
+.lookAside2{
+    margin-top: 1.3vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2vh;
+}
+.grayDiv{
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    width: 9vw;
+    display: flex;
+    height: 9vh;
+    justify-content: center;
+}
+.rightMainImg{
+    width: 94%;
+    padding-top: 2vh;
+
+}
+.grayDiv+div{
+    text-align: center;
+    padding-top: 10px;
+} 
+.festiveSale{
+    width: 32vw;
+    margin-top: 2vh;
+}
+.byuProducts{
+    font-size: 2vh;
+}
+.corusole1{
+    width: 97w;
+    /* padding-left: 10vw; */
+    /* margin-left: 10vw; */
+    margin-top: 15vh;
+    display: flex;
+    /* justify-content: space-evenly; */
+    overflow-x: scroll;
+    margin-bottom: 15vh;
+}
+.corusole1Unit{
+    padding: 0 20px;
+}
+.carouse2unit1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;   
+}
+.carouse2unit1>section>img{
+    margin-bottom: 3vh;
+}
+.carouse2unit2>section>img{
+    margin-bottom: 3vh;
+}
+.Carousel2H1{
+    margin: 0 0 5vh 5vh;
+}
+.carouse2unit2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+.carousel3H1{
+    margin: 0 0 5vh 5vh;
+}
+.carouse3unit1{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 100px; */
+}
+.carouse3unit1>section>:nth-child(2){
+    font-weight: 600;
+    padding: 5px 0;
+
+}
+.carouse3unit1>section>:nth-child(3){
+    padding: 5px 0;
+    font-size: small;
+
+}
+.carouse3unit1>section>:nth-child(4){
+    font-size: small;
+    font-weight: 500;
+    padding: 5px 0;
+
+}
+.carousel4Article>section>p{
+    margin-bottom: 5vh;
+}
+.carousel4Main{
+    margin: 15vh 0;
+}
+.carousel4Main>h1{
+    margin: 0 0 8vh 5vh;
+}
+.carousel4Article{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carousel4Article>section>p{
+    padding-left: 10px;
+}
+.carousel4Article>section{
+    border: 1px solid rgb(243, 241, 241);
+    border-radius: 10px;
+    padding-top: 10px;
+    /* padding-left: 10px; */
+}
+.carousel5Img{
+    margin: 0 0 15vh 5vw;
+
+}
+.carousrel6Section{
+    display: flex;
+}
+.carouse6Main{
+    margin-left: 2.7vw;
+
+    margin-bottom: 10vh;
+}
+.carouse6Main>h1{
+    margin: 0 0 1vh 5vh;
+}
+.carouse6Main>p{
+    margin: 0 0 5vh 5vh;
+}
+.carousrel6Section>article{
+    padding: 2vw;
+    margin: 0 1vw;
+} 
+.carousrel6Section>article{
+    border: 1px solid rgb(243, 241, 241);
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.carousel7H1{
+    margin: 0 0 10vh 10vh;
+    
+}
+.Carousel7Main{
+    margin-bottom: 15vh;
+}
+.carousrel7Section{
+    border: 1px solid rgb(214, 213, 213);
+    display: flex;
+    justify-content: space-evenly;
+}
+.Carousel8Img{
+    margin: 0 0 15vh 5vw;
+}
+.carouse9Article>section>:nth-child(2){
+    font-weight: 600;
+    padding: 5px 0;
+
+}
+.carouse9Article>section>:nth-child(3){
+    padding: 5px 0;
+    font-size: small;
+
+}
+.carouse9Article>section>:nth-child(4){
+    font-size: small;
+    font-weight: 500;
+    padding: 5px 0;
+    margin-bottom: 10vh;
+
+}
+
+.Carousel10Main{
+    margin-bottom: 15vh;
+}
+
+.Carousel9Main>h1{
+    margin: 0 0 5vh 10vh;
+}
+.carouse9Article{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Carousel10Main>h1{
+    margin: 0 0 10vh 10vh;
+}
+.carousrel10Section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carousrel10Section>article{
+    border: 1px solid rgb(241, 241, 241);
+}
+.carousrel10Section>article>p{
+    padding: 15px 0 0 15px ;
+}
+.Carousel11Img{
+    margin: 0 0 15vh 5vw;
+
+}
+.carousrel12Section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Carousel12Main>h1{
+    margin: 0 0 5vh 10vh;
+}
+.carousrel12Section>p{
+    padding: 15px 0 20px 15px;
+}
+.Carousel12Main{
+    margin-bottom: 10vh;
+}
+.carousrel13Section{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.Carousrl13main>h1{
+    margin: 0 0 5vh 10vh;
+}
+.carousrel13Section>article{
+    margin: 20px;
+    border: 1px solid rgb(238, 238, 238);
+}
+.carousrel13Section>article>p{
+    padding-top: 5vh;
+    padding-left: 1vw;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+}
+.QuickLinks>section>article{
+    width: 30vw;
+    justify-content: space-between;
+    display: flex;
+    font-size: 3vh;
+    font-weight: 500;
+    margin: 5vh;
+}
+.QuickLinks{
+    margin: 10vh 0 0 5vw;
+
+}
